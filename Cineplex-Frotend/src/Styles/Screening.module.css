@@ -1,0 +1,40 @@
+.screenNumber{
+    width:max-content;
+    font-weight:bolder;
+    font-size: 30px;
+    color: rgb(43, 13, 13);
+    font-style:normal;
+}
+
+#screenRoot{
+    padding:8%;
+    background-color: rgb(253, 253, 250);
+    width:100%;
+    height:600px;
+}
+.screenings{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.timeDiv{
+    display: flex;
+}
+
+.time{
+    display: grid;
+    background-color: rgb(253, 8, 8);
+    width: max-content;
+    height: 16px;
+    padding: 15px;
+    margin: 30PX;
+    border-radius: 5PX;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}

@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+    background-color: rgb(11, 8, 36);
+    opacity: .7;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.mainNav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 15, 46);
+    padding-left: 10%;
+    color: rgb(26, 183, 9);
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+#root{
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%  ;
+}
+.movie{
+    width: 250px;
+    margin: 35px;
+}
+.image {
+    width: 220px;
+    height: 350px;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.summery{
+    width: 250px;
+    font-size: 16px;
+    letter-spacing: .2px;
+    word-spacing: .3px;
+}    
